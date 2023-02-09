@@ -1,0 +1,92 @@
+/* !---------------------------------------------------Mobile screen-------------------------------------------------- */
+@media screen and (max-width:767px) {
+    .hide-mob {
+        display: none;
+    }
+
+    .navbar-brand {
+        margin-left: 22px;
+        font-family: 'Roboto mono';
+    }
+
+    .navbar-brand span {
+        display: none;
+    }
+
+    .hamburger-btn {
+        right: 10px;
+    }
+
+    .navbar {
+        top: -2px !important;
+    }
+
+
+    /* * --------------------------hero-------------------- */
+    .container-home {
+        max-width: 100vw;
+        height: 100%;
+
+        position: relative;
+    }
+
+    .hero {
+        margin: 60px 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        /* align-content: stretch; */
+        justify-content: space-evenly;
+        align-items: flex-end;
+        align-content: center;
+        justify-items: start;
+        align-items: center;
+
+    }
+
+    .social-links {
+        position: fixed;
+        padding: 7px 10px;
+        top: 220px;
+        left: 0;
+        background-color: rgb(79, 79, 79);
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        border-radius: 5px 5px;
+    }
+
+    .social-links .bi {
+        padding: 3px 0;
+    }
+
+    .hero-gmail {
+        display: none;
+        position: fixed;
+        transform: rotate(90deg);
+        max-width: 50px;
+        top: 180px;
+        right: 0;
+        padding-left: 15px;
+        background-color: black;
+    }
+}
+
+
+/* !--------------------------------------------------- Tablet screen-------------------------------------------------- */
+@media screen and (min-width:767px) and (max-width:1023px) {
+    .hamburger-btn {
+        display: none;
+    }
+}
+
+
+/* !--------------------------------------------------- Desktop screen-------------------------------------------------- */
+@media screen and (min-width:1023px) {
+    .hamburger-btn {
+        display: none;
+    }
+}

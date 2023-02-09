@@ -8,6 +8,7 @@
   <title>Document</title>
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/responsive.css">
@@ -28,54 +29,173 @@
 
 
 
+  <section>
 
 
-  <nav class="navbar bg-body-tertiary fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Vivek</a>
-      <button class="hamburger-btn  class=" navbar-toggler" type="button" data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <div class="hamburger-btn-1">
+
+    <nav class="navbar bg-body-tertiary sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <i class="fa-brands fa-viacoin"></i><span>ivek</span>
+        </a>
+        <ul class="nav justify-content-end mx-right hide-mob">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">0.1 Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">O.2 About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">0.3 Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ">0.4 Contacts</a>
+          </li>
+          <button>Resume</button>
+        </ul>
+        <button class="hamburger-btn  " navbar-toggler" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <div class="hamburger-btn-1">
+          </div>
+          <div class="hamburger-btn-1"></div>
+          <div class="hamburger-btn-1"></div>
+        </button>
+
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+              <i class="bi bi-x-lg btn-close"></i>
+            </button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/">Link</a>
+              </li>
+
+            </ul>
+          </div>
         </div>
-        <div class="hamburger-btn-1"></div>
-        <div class="hamburger-btn-1"></div>
-      </button>
+      </div>
+    </nav>
 
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
-            <i class="bi bi-x-lg btn-close"></i>
-          </button>
+
+
+
+
+
+
+
+
+
+
+    <div class="container-home">
+      <div class="hero ">
+        <div class="social-links ">
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-whatsapp"></i>
+          <i class="bi bi-github"></i>
+          <i class="bi bi-twitter"></i>
+          <span class="social-links-span"></span>
         </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-          </ul>
+        <div class="hero-content ">
+          <h6>Hi, my name is .</h6>
+          <h1>Vivek Bhagat.</h1>
+          <h1>I built things for web.</h1>
+          <p>I’m a software engineer specializing in building (and occasionally designing) exceptional
+            digitalexperiences.Currently, I’m focused on building accessible, human-centered products at Upstatement.
+          </p>
+
+        </div>
+        <div class="hero-gmail ">
+          <h6>vivekbhagat1890@gmail.com</h6>
+          <span class="hero-gmail-span"></span>
         </div>
       </div>
     </div>
-  </nav>
-
-
-  <div class="container-home"></div>
 
 
 
 
 
+
+
+
+
+    <div class="about">
+      <div class="about-profile-img">
+        <img src="./images/profile.jpg" alt="profile img" width="175px" height="156px">
+      </div>
+      <div class="about-content">
+        <p>Hello! My name is Vivek and I enjoy creating things that live on the internet. My interest in web development
+          started
+          back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog
+          button
+          taught me a lot about HTML & CSS!</p>
+
+        <p> Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge
+          corporation,
+          and a student-led design studio. My main focus these days is building accessible, inclusive products and
+          digital
+          experiences at Upstatement for a variety of clients.</p>
+
+        <p> I also recently launched a course that covers everything you need to build a web app with the Spotify API
+          using Node &
+          React. </p>
+
+        <p>Here are a few technologies I’ve been working with recently</p>
+
+        <div class="about-content-skills">
+          <li>Javascript (ES6) </li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>TypeScript</li>
+          <li>Figma</li>
+          <li>Photgraphy</li>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="projects">
+      <div class="projects-items"></div>
+      <div class="projects-items"></div>
+      <div class="projects-items"></div>
+    </div>
+
+
+
+    <div class="footer">
+      <h6>What's Next?</h6>
+      <h1>Get In Touch</h1>
+      <p>Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a
+        question or just want to say hi, I’ll try my best to get back to you!</p>
+      <button> Say Hello</button>
+    </div>
+
+
+
+
+  </section>
 
 
 
@@ -91,5 +211,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+  <!-- <script src="https://kit.fontawesome.com/287a6fa791.js" crossorigin="anonymous"></script> -->
 
 </html>
