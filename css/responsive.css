@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap');
+
+
+
 /* !---------------------------------------------------Mobile screen-------------------------------------------------- */
 @media screen and (max-width:767px) {
     .hide-mob {
@@ -25,13 +30,13 @@
     /* * --------------------------hero-------------------- */
     .container-home {
         max-width: 100vw;
-        height: 100%;
+        height: 70vh;
 
         position: relative;
     }
 
     .hero {
-        margin: 60px 40px;
+        margin: 90px 40px;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -46,21 +51,68 @@
     }
 
     .social-links {
+        /* display: none; */
         position: fixed;
         padding: 7px 10px;
-        top: 220px;
+        bottom: 50px;
         left: 0;
-        background-color: rgb(79, 79, 79);
+        background-color: rgb(254, 255, 255);
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-items: center;
         align-items: center;
         border-radius: 5px 5px;
+        color: rgb(0, 0, 0);
     }
+
+
 
     .social-links .bi {
         padding: 3px 0;
+        width: 20px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* .social-content {
+        font-family: 'Roboto Mono', monospace !important;
+        font-weight: 100;
+
+    } */
+
+    .hero-content h6 {
+        font-size: 14px;
+        font-weight: 100;
+        font-family: 'Orbitron', sans-serif !important;
+    }
+
+    .hero-content h1 {
+        font-family: 'Roboto Mono', monospace !important;
+        font-weight: 600;
+        color: aliceblue;
+        font-size: 35px;
+    }
+
+    .hero-content h2 {
+        font-family: 'Orbitron', sans-serif !important;
+        color: rgb(184, 196, 207);
+        /* font-weight: 600; */
+    }
+
+    .hero-content p {
+        font-family: 'Roboto Mono', monospace !important;
+        font-size: 13px;
+        font-weight: 400;
+        word-spacing: 3px;
+        color: rgb(148, 162, 161);
+        text-align: center;
+    }
+
+    .hero-content p span {
+        color: aqua;
     }
 
     .hero-gmail {
@@ -75,6 +127,17 @@
     }
 }
 
+.about {
+    margin: 60px 40px;
+}
+
+.project {
+    margin: 60px 40px;
+}
+
+.footer {
+    margin: 60px 40px;
+}
 
 /* !--------------------------------------------------- Tablet screen-------------------------------------------------- */
 @media screen and (min-width:767px) and (max-width:1023px) {
